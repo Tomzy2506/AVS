@@ -1,6 +1,6 @@
 # Voseto
 
-Voseto is a Python-based CLI tool that combines multiple security scanning tools to help identify vulnerabilities and risks in a given domain. Dawn integrates with Amass for subdomain enumeration, Whois for domain hijacking risk analysis, Nmap for port scanning and CVE detection, and OWASP ZAP for vulnerability scanning. A comprehensive report is automatically generated after the scans are completed.
+Voseto is a Python-based CLI tool that combines multiple security scanning tools to help identify vulnerabilities and risks in a given domain. Voseto integrates with Amass for subdomain enumeration, Whois for domain hijacking risk analysis, Nmap for port scanning and CVE detection, and OWASP ZAP for vulnerability scanning. A comprehensive report is automatically generated after the scans are completed.
 
 ## Installation
 
