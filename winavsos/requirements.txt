@@ -1,0 +1,14 @@
+psutil
+tk
+tldextract
+pytz
+python-nmap
+python-whois
+python-owasp-zap-v2.4
+cryptography
+schedule
+reportlab
+PyPDF2	
+keyring
+requests
+matplotlib
