@@ -1,13 +1,13 @@
-# Voseto
+# AVSOS
 
-Voseto is a Python-based CLI tool that combines multiple security scanning tools to help identify vulnerabilities and risks in a given domain. Voseto integrates with Amass for subdomain enumeration, Whois for domain hijacking risk analysis, Nmap for port scanning and CVE detection, and OWASP ZAP for vulnerability scanning. A comprehensive report is automatically generated after the scans are completed.
+AVSOS is a Python-based CLI tool that combines multiple security scanning tools to help identify vulnerabilities and risks in a given domain. AVSOS integrates with Amass for subdomain enumeration, Whois for domain hijacking risk analysis, Nmap for port scanning and CVE detection, and OWASP ZAP for vulnerability scanning. A comprehensive report is automatically generated after the scans are completed.
 
 ## Installation
 
 1. Clone this repository or download the source code.
 
-2. git clone https://github.com/Tomzy2506/dawn
-3. cd voseto
+2. git clone https://github.com/Tomzy2506/avsos
+3. cd avsos
 4. pip install -r requirements.txt
 	
 5. Install [Amass](https://github.com/OWASP/Amass/releases/download/v3.13.4/amass_windows_amd64.zip) and [OWASP ZAP](https://github.com/zaproxy/zaproxy/releases/download/v2.12.0/ZAP_2_12_0_windows.exe) following their respective installation instructions.
@@ -16,7 +16,7 @@ Voseto is a Python-based CLI tool that combines multiple security scanning tools
 
 To run all scans on a domain, use the following command:
 
-voseto -d example.com -a
+avsos -d example.com -a
 
 Replace `example.com` with the domain you want to scan.
 
@@ -31,7 +31,7 @@ Replace `example.com` with the domain you want to scan.
 - Domain hijacking risk analysis using Whois.
 - Port scanning and CVE detection based on header information using Nmap.
 - Vulnerability scanning using OWASP ZAP.
-- Automatic report generation.
+- Automatic report generation in different formats.
 
 ## License
 
